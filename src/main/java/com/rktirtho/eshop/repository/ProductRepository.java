@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://eshop-front-end.herokuapp.com")
 public interface ProductRepository extends JpaRepository<Product, Long> {
 
     // localhost:8080/api/products/search/findByCategoryId?id=3
